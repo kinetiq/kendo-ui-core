@@ -2646,6 +2646,7 @@ declare namespace kendo.ui {
         navigateToPast(): void;
         navigateUp(): void;
         selectDates(): void;
+        selectDates(dates: any): void;
         value(): Date;
         value(value: Date): void;
         value(value: string): void;
